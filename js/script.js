@@ -28,6 +28,7 @@ console.log('the-winner-is' , theWinnerIs);
 // Per la soluzione di questo esercizio NON è consentito utilizzare .includes di js!
 
 // 1 - Chiedo all'utente la sua mail
+let userEmail = prompt('Ciao, dimmi la tua mail!!! Scrivi "nome.gmail.com" e premi invio.');
 // 2 - Scorro la lista delle email per accertarmi o meno della presenza della email dell'utente
 // 3 - Se la mail è presente nella lista stampo il messaggio : Puoi accedere al servizio
-        // - altrimenti stampo il messaggio : Non puoi accedere al servizio
+//        - altrimenti stampo il messaggio : Non puoi accedere al servizio
