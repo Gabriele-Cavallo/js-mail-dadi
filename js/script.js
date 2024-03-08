@@ -3,7 +3,11 @@
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 // 1 - Genero un numero random per il giocatore da 1 a 6
+let playerNumber = Math.floor(Math.random() * 7);
+console.log('player-number' , playerNumber);
 // 2 - Genero un numero random per il computer da 1 a 6
+let computerNumber = Math.floor(Math.random() * 7);
+console.log('computer-number' , computerNumber);
 // 3 - Confronto i due numeri
 // 4 - Dichiaro vincitore chi ha il numero più alto
 
