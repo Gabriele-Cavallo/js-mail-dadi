@@ -40,4 +40,8 @@ for (let i = 0; i < confirmedEmail.length; i++) {
 }
 // 3 - Se la mail è presente nella lista stampo il messaggio : Puoi accedere al servizio
 //        - altrimenti stampo il messaggio : Non puoi accedere al servizio
-
+if ( foundEmail === true){
+    alert('Puoi accedere al servizio');
+} else {
+    alert('Non puoi accedere al servizio');
+}
