@@ -9,8 +9,17 @@ console.log('player-number' , playerNumber);
 let computerNumber = Math.floor(Math.random() * 7);
 console.log('computer-number' , computerNumber);
 // 3 - Confronto i due numeri
-// 4 - Dichiaro vincitore chi ha il numero più alto
-
+//       - Dichiaro vincitore chi ha il numero più alto
+let winner = 'Il vincitore è il ';
+let theWinnerIs;
+if (playerNumber > computerNumber){
+    theWinnerIs = `${winner}giocatore!!!`;
+}else if(computerNumber > playerNumber){
+    theWinnerIs = `${winner}computer!!!`;
+}else if (computerNumber === playerNumber){
+    theWinnerIs = `Pari!!!Nessuno vince!!!`;
+}
+console.log('the-winner-is' , theWinnerIs);
 // TASK 2 - Mail
 // Chiedi all’utente la sua email,
 // controlla che sia nella lista di chi può accedere,
