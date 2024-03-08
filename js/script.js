@@ -20,8 +20,14 @@ if (playerNumber > computerNumber){
     theWinnerIs = `Pari!!!Nessuno vince!!!`;
 }
 console.log('the-winner-is' , theWinnerIs);
+
 // TASK 2 - Mail
 // Chiedi all’utente la sua email,
 // controlla che sia nella lista di chi può accedere,
 // stampa un messaggio appropriato sull’esito del controllo.
 // Per la soluzione di questo esercizio NON è consentito utilizzare .includes di js!
+
+// 1 - Chiedo all'utente la sua mail
+// 2 - Scorro la lista delle email per accertarmi o meno della presenza della email dell'utente
+// 3 - Se la mail è presente nella lista stampo il messaggio : Puoi accedere al servizio
+        // - altrimenti stampo il messaggio : Non puoi accedere al servizio
